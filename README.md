@@ -13,7 +13,7 @@ DryRun e Strict inicializado como, dryrun = false e strict = true, para a verifi
 <span>
   <h3> Cliente Comum </h3>
 Runner rodando com o cliente declarado como Cliente Especial false(Assim a variavel se tornando Cliente Comum).
-  Para a declaração do valor negativo é preciso mudar na conta.java, pois o parametro está em decimal. assim também é preciso mudar o Given para  -(\\d+) reais$ quando for pedido um valor negativo
+  Para a declaração do valor negativo é preciso mudar na conta.java, pois o parametro está em decimal. assim também é preciso mudar o Given para  -(\\d+) reais$ quando for pedido um valor negativo.
    <br>
   <br>
   <img src=https://media.discordapp.net/attachments/843937538409889795/1043312937743425576/image.png?width=871&height=395></img>
@@ -21,18 +21,18 @@ Runner rodando com o cliente declarado como Cliente Especial false(Assim a varia
   <h4> Conta.bdd feature com o Given negativo do cliente comum </h4>
   <img src=https://media.discordapp.net/attachments/843937538409889795/1043315116936019968/image.png></img>
   <br>
-   <h4> Given com parametro em decimal é preciso realizar o calculo de * -1 para o codigo entender que é um valor negativo. Precisei também modificar a string do Given para -(\\d+) reais$ quando for pedido um valor negativo, quando o valor for positivo é preciso retirar o calcualo e modificar a String para (\\d+) reais$ quando for pedido um valor negativo sem o valor de negativo ao lado do valor decimal. Só assim foi executado o DryRun e o strict pedido pela tarefa </h4>
+   <h4> Given com parametro em decimal é preciso realizar o calculo de * -1 para o codigo entender que é um valor negativo. Precisei também modificar a string do Given para -(\\d+) reais$ quando for pedido um valor negativo, quando o valor for positivo é preciso retirar o calcualo e modificar a String para (\\d+) reais$ quando for pedido um valor negativo sem o valor de negativo ao lado do valor decimal. Só assim foi executado o DryRun e o strict pedido pela tarefa. </h4>
    <img src=https://media.discordapp.net/attachments/843937538409889795/1043321358131679323/image.png></img>
   <br>
    <h3>Cliente Especial</h3>
-  Runner rodando com o cliente declarado como Cliente Especial true(Assim a variavel se tornando Cliente Especial). Realizado o teste com valores negativos para o Cliente Especial, o Cliente Especial pode realizar o saque mesmo com os valores negativos
+  Runner rodando com o cliente declarado como Cliente Especial true(Assim a variavel se tornando Cliente Especial). Realizado o teste com valores negativos para o Cliente Especial, o Cliente Especial pode realizar o saque mesmo com os valores negativos.
   <img src=https://media.discordapp.net/attachments/843937538409889795/1043319658838765599/image.png?width=878&height=395></img>
    <br>
-  <h4> Conta.bdd feature com o Given negativo do cliente especial </h4>
+  <h4> Conta.bdd feature com o Given negativo do cliente especial. </h4>
   <img src=https://media.discordapp.net/attachments/843937538409889795/1043315116936019968/image.png></img>
   <h4> Given negativo do cliente especial teve que realizar o mesmo procedimento do given do cliente comum, pois a string pede a troca de parametros quando o vaor for negativo ou positivo </h4>
   <img src=https://media.discordapp.net/attachments/843937538409889795/1043317177127804998/image.png></img>
-  <h4>Exemplo do Cliente Especial com valores positvos no conta.bdd_feature. assim é preciso alterar o given</h4>
+  <h4>Exemplo do Cliente Especial com valores positivos no conta.bdd_feature. assim é preciso alterar o Given.</h4>
    <img src=https://media.discordapp.net/attachments/843937538409889795/1043323995593908284/image.png?width=900&height=395></img>
 </span>
 
